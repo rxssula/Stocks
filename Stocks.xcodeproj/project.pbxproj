@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F210A4482BAC5CEB00B9C065 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F210A4472BAC5CEB00B9C065 /* SearchTextField.swift */; };
 		F2C31EB42BAC320800A089AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C31EB32BAC320800A089AB /* AppDelegate.swift */; };
 		F2C31EB62BAC320800A089AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C31EB52BAC320800A089AB /* SceneDelegate.swift */; };
 		F2C31EBD2BAC320900A089AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C31EBC2BAC320900A089AB /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F210A4472BAC5CEB00B9C065 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
 		F2C31EB02BAC320800A089AB /* Stocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C31EB32BAC320800A089AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2C31EB52BAC320800A089AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				F2C31EB52BAC320800A089AB /* SceneDelegate.swift */,
 				F2C31EC92BAC339500A089AB /* FavoritesVC.swift */,
 				F2C31EC72BAC330B00A089AB /* StocksVC.swift */,
+				F210A4472BAC5CEB00B9C065 /* SearchTextField.swift */,
 				F2C31EBC2BAC320900A089AB /* Assets.xcassets */,
 				F2C31EBE2BAC320900A089AB /* LaunchScreen.storyboard */,
 				F2C31EC12BAC320900A089AB /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F210A4482BAC5CEB00B9C065 /* SearchTextField.swift in Sources */,
 				F2C31ECA2BAC339500A089AB /* FavoritesVC.swift in Sources */,
 				F2C31EC82BAC330B00A089AB /* StocksVC.swift in Sources */,
 				F2C31EB42BAC320800A089AB /* AppDelegate.swift in Sources */,

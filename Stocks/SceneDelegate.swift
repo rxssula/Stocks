@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createStocksNC() -> UINavigationController {
         let stocksVC = StocksVC()
         stocksVC.title = "Stocks"
-        stocksVC.tabBarItem = UITabBarItem(title: "Stocks", image: nil, tag: 0)
+        stocksVC.tabBarItem = UITabBarItem(title: "Stocks", image: UIImage(systemName: "dollarsign.circle.fill"), tag: 0)
         
         return UINavigationController(rootViewController: stocksVC)
     }
@@ -31,13 +31,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createFavoritesNC() -> UINavigationController {
         let favoritesVC = FavoritesVC()
         favoritesVC.title = "Favorites"
-        favoritesVC.tabBarItem = UITabBarItem(title: "Favorites", image: nil, tag: 1)
+        favoritesVC.tabBarItem = UITabBarItem(title: "Favorites", image: UIImage(systemName: "star.fill"), tag: 1)
         
         return UINavigationController(rootViewController: favoritesVC)
     }
     
     func createTabbar() -> UITabBarController {
-        var tabbar = UITabBarController()
+        let tabbar = UITabBarController()
         tabbar.viewControllers = [createStocksNC(), createFavoritesNC()]
         
         return tabbar
